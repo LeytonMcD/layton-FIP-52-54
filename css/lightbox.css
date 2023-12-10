@@ -1,0 +1,33 @@
+.lightbox {
+    top: 0;
+    left: 0;
+    width: 412px;
+    height: 388px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 716);
+    z-index: 1000;
+ }
+ #lightbox1 {
+    position: absolute;
+    padding: 0;
+ }
+ .lightbox_close {
+    float: right;
+    color: #707070;
+    font-size: 36px;
+  
+    text-decoration: none;
+    font-weight: bolder;
+    transition: all .5s ease-in-out;
+  }
+  
+  .lightbox_close:hover {
+    opacity: 0.5;
+    color: red;
+  
+  }
+  
+  
+  .lightbox:target {
+    display: block;
+  }
