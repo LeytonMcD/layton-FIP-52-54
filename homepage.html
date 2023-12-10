@@ -6,38 +6,38 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d0e8431583.js" crossorigin="anonymous"></script>
+    <link href="css/homepage.css" rel="stylesheet" type="text/css">
     <link href="css/grid.css" rel="stylesheet" type="text/css">
-    <link href="css/sample.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/lightbox.css" type="text/css">
-    <link rel="stylesheet" href="css/animations.css" type="text/css">
-
     <title>Welcome to The Couples Resort</title>
 </head>
-
     <body>
         <div id="mobile-outline">
-        <h1 class="hidden">Welcome to The Couples Resort</h1>
-        <!-- Main Nav -->         
+        <h1 class="hidden">Welcome to The Couples Resort</h1>        
             <header class="grid-con" id="main-header">
                 <nav id="main-nav" class="col-span-full">
                     <h2 class="hidden">Main Navigation</h2>
-                    <a href="#lightbox1">
-                            <input type="checkbox" id="hamburger">
-                                <label for="hamburger">
-                                    <img src="images/burger.svg" alt="hamburger menu icon">  
-                                </label>
-                    </a>
+                    <input type="checkbox" id="hamburger">
+                    <label for="hamburger">
+                    <img src="images/burger.svg" alt="hamburger menu icon">
+                    </label>
+                    <div id="burger-con">
+                        <ul>
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="#">Rooms</a></li>
+                            <li><a href="#">Packages</a></li>
+                            <li><a href="dining.html">Dining</a></li>
+                            <li><a href="#">Spa Activites</a></li>
+                            <li><a href="about.html">about</a></li>
+                        </ul>
+                    </div>
                 </nav>
-
                 <div id="logo" class="col-span-full">
                     <img src="images/couples_resort_logo.svg" alt="Couples Resort Logo">
                 </div>
-            </header>   
-
-        <!-- Main Hero -->
+            </header>        
         <section id="hero" class="grid-con">
             <h2 class="hidden">Book a stay with us</h2>                       
-            <div id="book-now-hero" class="book-now col-start-3 col-span-1">
+            <div id="book-now-hero" class="book-now col-start-3 col-span-2">
                 <p>Book Now</p>
             </div>
             <section id="hero-heading-box" class="col-span-full">
@@ -63,7 +63,6 @@
                     Toll Free:+1 866 202-1179<br>
                     Fax:+1 613 637 2615<br>
                     info[at]coupleresort.com
-                    <!-- discuss email obfuscation  -->
                 </p>   
             </div>
             <div class="col-start-2 col-span-2">
@@ -75,18 +74,15 @@
                 </p>   
             </div>
         </section>
-         <!-- Why Choose Us -->
         <div id="why-choose-us">  
             <div class="grid-con">
-                <nav id="why-choose-us-nav" class="col-span-full roomnav">
+                <nav id="why-choose-us-nav" class="col-span-full">
                     <h2 class="hidden">Nav for why choose us</h2>
                     <ul>
-                        <li><a class="selected" href="#">Rooms</a></li>
-                        <li><a href="#">Chatues</a></li>
-                        <li><a href="#">Villas</a></li>
-                        <li><a href="#">Exotics</a></li>
-                        <li><a href="#">chalets</a></li>
-                        <li><a href="#">Juniors</a></li>
+                        <li><a class="selected" href="#">Why Choose Couples Resort</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -108,7 +104,6 @@
                     <p>Get the ultimate special treatment you deserve and have been waiting for in our eco friendly organic luxury Algonquin Spa or with private in-suite spa treatments.</p>   
                     <a href="#">CLICK TO LEARN MORE...</a>                   
                 </div>
-
                 <nav class="col-span-full" id="why-choose-us-bottom-nav">
                     <h2 class="hidden">Why us bottom nav</h2>
                     <ol>
@@ -244,27 +239,7 @@
                 </div>
         </footer>
 
-        <!-- Lightbox -->
-
-        <section class="lightbox" id="lightbox1">
-            <div class="grid-con">
-                <nav class="col-span-full" id="main-nav">
-                    <a href="sample.html" class="lightbox_close">X</a>
-                    <div id="burger-con">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="#">Rooms</a></li>
-                            <li><a href="#">Packages</a></li>
-                            <li><a href="#">Dining</a></li>
-                            <li><a href="#">Spa Activites</a></li>
-                            <li><a href="#">Reservations</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </section>
-
-        <script src="js/main.js"></script> 
-    </div>  
+        <script src="js/main.js"></script>   
+    </div>
     </body>
 </html>
